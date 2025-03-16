@@ -1,9 +1,9 @@
 public class main {
     public static void main(String[] args) {
     int[]arr={1,2,3,4,5,6};
-    System.out.println(java.util.Arrays.toString(metoda(arr)));
+    System.out.println(java.util.Arrays.toString(Filterevenindexodd(arr)));
     }
-    public static int[]metoda(int[]arr){
+    public static int[]Filterevenindexodd(int[]arr){
         int counter=0;
         for(int i=0;i<arr.length;i+=2){
             if(arr[i]%2!=0){
